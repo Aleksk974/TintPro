@@ -1,13 +1,54 @@
+@media (min-width: 319px) and (max-width: 630px)
+{
+  .nav-container{
+    justify-content: center;
+  }
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar.toggled .navbar-ul 
+  {
+    display: block;
+  }
+
+}
+
+@media (min-width: 630px)
+{
+  .navbar-toggler{
+    display: none;
+  }
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url(../img/navbar-toggler.png);
+}
+
 .nav-container {
     display: flex;
     flex-direction: row;
-    height: 10vh;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
     background-color: #202C45;;
   }
 .navbar {
-  margin-right: 3rem;
+  padding: 1em;
 }
 .navbar-ul
 {
@@ -28,4 +69,3 @@ a:visited
   text-decoration: none;
   color: white;
 }
-
