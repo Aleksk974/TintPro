@@ -45,10 +45,10 @@
     flex-direction: row;
     /* justify-content: flex-end; */
     align-items: center;
-    background-color: #202C45;;
+    background-color: transparent;
   }
 .navbar {
-  padding: 1em;
+  padding: 0.8em;
 }
 .navbar-ul
 {
@@ -58,14 +58,21 @@
 }
 .nav-item
 {
-  color: white;
-  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0.1em;
 }
 .nav-link {
     text-decoration: none;
 }
+
+a {
+  display: block;
+}
+
 a:visited
 {
   text-decoration: none;
-  color: white;
+  color: black;
 }
