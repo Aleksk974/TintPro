@@ -1,0 +1,31 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #202C45;;
+  }
+.navbar {
+  margin-right: 3rem;
+}
+.navbar-ul
+{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.nav-item
+{
+  color: white;
+  font-size: 2rem;
+}
+.nav-link {
+    text-decoration: none;
+}
+a:visited
+{
+  text-decoration: none;
+  color: white;
+}
+
