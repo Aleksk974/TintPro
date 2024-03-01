@@ -1,5 +1,43 @@
 .row {
     display: flex;
-    gap: 20rem;
-    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.contactDetails-container
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    align-items: center;
+}
+.contactDetails
+{
+    text-align: center;
+}
+
+.googleMaps-container
+{
+    flex: 0 0 50%;
+}
+
+.googleMaps {
+    flex: 0 0 50%;
+    width: 75%;
+}
+
+.contact-title {
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin: 0.67em 0;
+}
+
+.contact-paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    margin-bottom: 0.55em;
+}
+
+.locationMarker > h2 {
+    margin: 1.5em 0 0.75em 0;
 }
