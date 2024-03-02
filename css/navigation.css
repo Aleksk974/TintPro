@@ -1,4 +1,4 @@
-@media (min-width: 319px) and (max-width: 630px)
+@media (min-width: 50px) and (max-width: 630px)
 {
   .nav-container{
     justify-content: center;
@@ -43,7 +43,8 @@
 .nav-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
+    position: fixed;
+    width: 100%;
     align-items: center;
     background-color: rgb(202, 210, 212);
   }
