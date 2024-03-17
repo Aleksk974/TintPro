@@ -1,80 +1,11 @@
-/* @media (min-width: 50px) and (max-width: 630px)
-{
-  .nav-container{
-    justify-content: center;
-  }
-  .navbar-collapse {
-    display: none;
-  }
-
-  .navbar.toggled .navbar-ul 
-  {
-    display: block;
-  }
-
+.title-logo{
+  color: rgb(236, 42, 42);
 }
 
-@media (min-width: 631px)
-{
-  .navbar-toggler{
-    display: none;
-  }
-}
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+.nav-item {
+  font-size: 18px;
 }
 
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
-  background-image: url(../img/navbar-toggler.png);
+.navbar-nav{
+  text-align: center;
 }
-
-.nav-container {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    width: 100%;
-    align-items: center;
-    background-color: rgb(202, 210, 212);
-  }
-.navbar {
-  padding: 0.8em;
-}
-.navbar-ul
-{
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-}
-.nav-item
-{
-  color: black;
-  font-weight: 600;
-  font-size: 1.5rem;
-  padding: 0.1em;
-}
-.nav-link {
-    text-decoration: none;
-}
-
-a {
-  display: block;
-  color: inherit;
-}
-
-a:visited
-{
-  text-decoration: none;
-  color: black;
-} */
