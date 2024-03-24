@@ -16,7 +16,7 @@ html, body{
 @media (min-width: 631px)
 {
     .site-footer{
-        position: fixed;
+        position:fixed;
         bottom: 0;
         width: 100%;
     }
