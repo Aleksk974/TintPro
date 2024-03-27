@@ -9,14 +9,14 @@ html, body{
         margin-top: 2em;
         bottom: 0;
         width: 100%;
-        position: fixed;
+        position: relative;
     }
 }
 
 @media (min-width: 631px)
 {
     .site-footer{
-        position:fixed;
+        position:relative;
         bottom: 0;
         width: 100%;
     }
@@ -39,4 +39,20 @@ html, body{
 
 .site-copyright{
     color: rgb(181, 183, 183);
+}
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    height: 100vh;
+}
+
+.container-center > h1 {
+    text-align: center;
+}
+
+.d-grid {
+    align-content: center;
 }
