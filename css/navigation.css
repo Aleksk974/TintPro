@@ -8,4 +8,17 @@
 
 .navbar-nav{
   text-align: center;
+  width: 100%;
+}
+
+.contact-icons{
+  text-align: center;
+}
+
+.fb-logo{
+  display: block;
+}
+
+.navbar-text{
+  text-align: center;
 }
