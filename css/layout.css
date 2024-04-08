@@ -32,13 +32,14 @@ html, body{
 
 .site-footer {
     display: flex;
-    justify-content: center;
     background-color: #222222;
 
 }
 
+
 .site-copyright{
     color: rgb(181, 183, 183);
+    width: 100%;
 }
 
 .container-center {
